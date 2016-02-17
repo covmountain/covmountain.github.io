@@ -8,6 +8,9 @@
 */
 
 /* Basic */
+.center-contents {
+  text-align: center;
+}
 
 	body, #skel-layers-wrapper {
 		background: #f3f6fa;
