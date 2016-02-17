@@ -5,8 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is the website for Coventry Universities Mountaineering Society.
   Here you can find an abundance of information, pictures and more to 
   view.
-baseurl: "" # the subpath of your site, e.g. /blog/
-root: /m
+baseurl: "/mountain/" # the subpath of your site, e.g. /blog/
 url: "http://edprince.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  edprince
