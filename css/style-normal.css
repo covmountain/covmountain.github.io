@@ -5,59 +5,61 @@
 */
 
 /* Basic */
+@media (max-width: 640px) {
 
-	body, input, select, textarea {
-		font-size: 13pt;
-		letter-spacing: 0.025em;
-		line-height: 1.65em;
-	}
+    body, input, select, textarea {
+      font-size: 13pt;
+      letter-spacing: 0.025em;
+      line-height: 1.65em;
+    }
 
-	h1, h2, h3, h4, h5, h6 {
-		line-height: 1.5em;
-	}
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 1.5em;
+    }
 
-/* Section/Article */
+  /* Section/Article */
 
-	header.major {
-		padding-bottom: 1.5em;
-	}
+    header.major {
+      padding-bottom: 1.5em;
+    }
 
-	footer.major {
-		padding-top: 2em;
-	}
+    footer.major {
+      padding-top: 2em;
+    }
 
-/* Wrapper */
+  /* Wrapper */
 
-	.wrapper {
-		margin-bottom: 4em;
-		padding: 4em 3em;
-	}
+    .wrapper {
+      margin-bottom: 4em;
+      padding: 4em 3em;
+    }
 
-		.wrapper.style4 {
-			padding: 3em;
-		}
+      .wrapper.style4 {
+        padding: 3em;
+      }
 
-/* Header */
+  /* Header */
 
-	#header nav ul li {
-		margin-left: 1em;
-	}
+    #header nav ul li {
+      margin-left: 1em;
+    }
 
-/* Banner */
+  /* Banner */
 
-	#banner {
-		background-attachment: scroll;
-	}
+    #banner {
+      background-attachment: scroll;
+    }
 
-/* CTA */
+  /* CTA */
 
-	#cta {
-		padding: 4em;
-		background-attachment: scroll;
-	}
+    #cta {
+      padding: 4em;
+      background-attachment: scroll;
+    }
 
-/* Footer */
+  /* Footer */
 
-	#footer {
-		padding: 4em;
-	}
+    #footer {
+      padding: 4em;
+    }
+  }
