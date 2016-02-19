@@ -1,3 +1,4 @@
+<script src="{{ site.baseurl }}/js/equip.js"></script>
 <header id="header">
   <h1 id="logo"><a href="{{ site.baseurl }}/">Coventry<span> Mountaineering</span></a></h1>
 				<nav id="nav">
@@ -7,10 +8,10 @@
             <li><a href="{{ site.baseurl }}/team.html">The Team</a></li>
             <li class='submenu'><a href="{{ site.baseurl }}/equipment.html">Equipment</a>
               <ul>
-                <li><a href='#'>Hiking</a></li>
-                <li><a href='#'>Climbing</a></li>
-                <li><a href='#'>Winter</a></li>
-                <li><a href='#'>Water</a></li>
+                <li><a onclick="display_climbing()" href='{{ site.baseurl }}/equipment.html#climbing-display'>Climbing</a></li>
+                <li><a onclick="display_hiking()" href='{{ site.baseurl }}/equipment.html#hiking-display'>Hiking</a></li>
+                <li><a onclick="display_winter()" href='{{ site.baseurl }}/equipment.html#winter-display'>Winter</a></li>
+                <li><a onclick="display_other()" href='{{ site.baseurl }}/equipment.html#other-display'>Other</a></li>
               </ul>
             </li>
             <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>

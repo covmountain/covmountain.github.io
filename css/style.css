@@ -10,6 +10,8 @@
 /*Custom CSS - ED PRINCE*/
 .dynamic-display {
   display: none;
+  padding-top: 2.5em;
+  border-top: solid 2px #efefef;
 }
 
 /* Basic */
@@ -17,6 +19,15 @@
   text-align: center;
 }
 
+.panel {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.bio {
+  padding: 1em;
+}
 	body, #skel-layers-wrapper {
 		background: #f3f6fa;
 	}

@@ -42,7 +42,8 @@
 
   <body class="index">
 
-    <header id="header">
+    <script src="/mountaineering//js/equip.js"></script>
+<header id="header">
   <h1 id="logo"><a href="/mountaineering//">Coventry<span> Mountaineering</span></a></h1>
 				<nav id="nav">
 					<ul>
@@ -51,10 +52,10 @@
             <li><a href="/mountaineering//team.html">The Team</a></li>
             <li class='submenu'><a href="/mountaineering//equipment.html">Equipment</a>
               <ul>
-                <li><a href='#'>Hiking</a></li>
-                <li><a href='#'>Climbing</a></li>
-                <li><a href='#'>Winter</a></li>
-                <li><a href='#'>Water</a></li>
+                <li><a onclick="display_climbing()" href='/mountaineering//equipment.html#climbing-display'>Climbing</a></li>
+                <li><a onclick="display_hiking()" href='/mountaineering//equipment.html#hiking-display'>Hiking</a></li>
+                <li><a onclick="display_winter()" href='/mountaineering//equipment.html#winter-display'>Winter</a></li>
+                <li><a onclick="display_other()" href='/mountaineering//equipment.html#other-display'>Other</a></li>
               </ul>
             </li>
             <li><a href="/mountaineering//blog.html">Blog</a></li>
@@ -109,12 +110,12 @@
 					<section class="wrapper style3 container special">
             <h3>Click a button to explore equipment</h3>
             <ul class="buttons">
-              <li id="climbing-button"><a class="button">Climbing Gear</a></li>
-              <li id="winter-button"><a class="button">Winter Gear</a></li>
+              <li id="climbing-button"><a href="#climbing-display" class="button">Climbing Gear</a></li>
+              <li id="winter-button"><a href="#winter-display" class="button">Winter Gear</a></li>
             </ul>
             <ul class="buttons">
-              <li id="hiking-button"><a class="button">Hiking Gear</a></li>
-              <li id="other-button"><a class="button">Other Gear</a></li>
+              <li id="hiking-button"><a href="#hiking-display" class="button">Hiking Gear</a></li>
+              <li id="other-button"><a href="#other-display" class="button">Other Gear</a></li>
             </ul>
 
             <div class="dynamic-display" id="climbing-display">
@@ -130,6 +131,16 @@
               <h2>Winter Gear</h2>
               <ul>
                 <li>Ice Axe</li>
+                <li>Crampons</li>
+                <li>Ice Axe</li>
+                <li>Ice Axe</li>
+                <li>Ice Axe</li>
+                <li>Ice Axe</li>
+                <li>Ice Axe</li>
+                <li>Crampons</li>
+                <li>Crampons</li>
+                <li>Crampons</li>
+                <li>Crampons</li>
                 <li>Crampons</li>
               </ul>
             </div>

@@ -42,7 +42,8 @@
 
   <body class="index">
 
-    <header id="header">
+    <script src="/mountaineering//js/equip.js"></script>
+<header id="header">
   <h1 id="logo"><a href="/mountaineering//">Coventry<span> Mountaineering</span></a></h1>
 				<nav id="nav">
 					<ul>
@@ -51,10 +52,10 @@
             <li><a href="/mountaineering//team.html">The Team</a></li>
             <li class='submenu'><a href="/mountaineering//equipment.html">Equipment</a>
               <ul>
-                <li><a href='#'>Hiking</a></li>
-                <li><a href='#'>Climbing</a></li>
-                <li><a href='#'>Winter</a></li>
-                <li><a href='#'>Water</a></li>
+                <li><a onclick="display_climbing()" href='/mountaineering//equipment.html#climbing-display'>Climbing</a></li>
+                <li><a onclick="display_hiking()" href='/mountaineering//equipment.html#hiking-display'>Hiking</a></li>
+                <li><a onclick="display_winter()" href='/mountaineering//equipment.html#winter-display'>Winter</a></li>
+                <li><a onclick="display_other()" href='/mountaineering//equipment.html#other-display'>Other</a></li>
               </ul>
             </li>
             <li><a href="/mountaineering//blog.html">Blog</a></li>
@@ -236,7 +237,7 @@
 			
 				<header>
 					<h2>Want to <strong>join us</strong>?</h2>
-					<p>Become a part of this fantastic society</p>
+          <p>Get in touch at <strong>our_email@cov.co.uk</strong></p>
 				</header>
 				<footer>
 					<ul class="buttons">
