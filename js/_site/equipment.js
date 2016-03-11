@@ -33,18 +33,18 @@ function display_winter() {
   $("#hiking-display").hide();
   $("#climbing-display").hide()
   $("#other-display").hide();
-  $("#winter-display").slideDown();
+  $("#winter-display").show();
 }
 function display_hiking() {
   $("#other-display").hide();
   $("#climbing-display").hide()
   $("#winter-display").hide();
-  $("#hiking-display").slideDown();
+  $("#hiking-display").show();
 }
 
 function display_other() {
   $("#hiking-display").hide();
   $("#climbing-display").hide();
   $("#winter-display").hide();
-  $("#other-display").slideDown();
+  $("#other-display").show();
 }

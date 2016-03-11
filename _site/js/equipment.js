@@ -27,24 +27,24 @@ function display_climbing() {
   $("#other-display").hide();
   $("#winter-display").hide();
   $("#hiking-display").hide();
-  $("#climbing-display").show();
+  $("#climbing-display").slideDown();
 }
 function display_winter() {
   $("#hiking-display").hide();
   $("#climbing-display").hide()
   $("#other-display").hide();
-  $("#winter-display").show();
+  $("#winter-display").slideDown();
 }
 function display_hiking() {
   $("#other-display").hide();
   $("#climbing-display").hide()
   $("#winter-display").hide();
-  $("#hiking-display").show();
+  $("#hiking-display").slideDown();
 }
 
 function display_other() {
   $("#hiking-display").hide();
   $("#climbing-display").hide();
   $("#winter-display").hide();
-  $("#other-display").show();
+  $("#other-display").slideDown();
 }
