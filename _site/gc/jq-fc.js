@@ -15,7 +15,7 @@ $(document).ready(function() {
     eventLimit: true,
     eventSources: [
     {
-      url: 'gc/events.php',
+	    url: 'http://edprince.uk/wellacre/gc/events.php',
     }
     ],
     allDayDefaul: true,
