@@ -5,6 +5,7 @@ $(document).ready(function() {
 
 function main() {
   $('#add').click(function() {
+    conosle.log("Booyah");
 
     UNIQUE = '';
     var id = $('.modal').attr('id');
