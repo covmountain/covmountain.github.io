@@ -15,7 +15,7 @@ $(document).ready(function() {
     eventLimit: true,
     eventSources: [
     {
-	    url: 'http://edprince.uk/wellacre/gc/events.php',
+	    url: 'http://cors.io/?u=http://edprince.uk/wellacre/gc/events.php',
     }
     ],
     allDayDefaul: true,
