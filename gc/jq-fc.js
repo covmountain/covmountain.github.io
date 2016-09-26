@@ -2,7 +2,6 @@ $(document).ready(function() {
   var startDate;
   var endDate;
   var id;
-  console.log("JQ Running");
   
   $('#calendar').fullCalendar({
     header: {
@@ -15,7 +14,7 @@ $(document).ready(function() {
     eventLimit: true,
     eventSources: [
     {
-	    url: 'http://cors.io/?u=http://edprince.uk/wellacre/gc/events.php',
+	    url: '../dates.json',
     }
     ],
     allDayDefaul: true,
@@ -59,20 +58,6 @@ $(document).ready(function() {
     eventMouseout: function(calEvent) {
     }
   });
-  console.log("Not getting here");
-  //Handles list view
-  if (document.getElementById('upcoming')) {
-    //Append the 3 most upcoming events to a list in a div id="upcoming"
-    $.getJSON( "gc/events.php", function (data) {
-      displayList('upcoming', data);
-    });
-  }
-  if (document.getElementById('upcoming-sports')) {
-    console.log("Upcoming sports div found");
-    $.getJSON('gc/sports.php', function (data) {
-      displayList('upcoming-sports', data);
-    });
-  }
 });
 
 function unixTimeStamp(x) {
