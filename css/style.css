@@ -29,6 +29,10 @@
   padding: 1em;
 }
 
+img {
+  max-width: 100%;
+}
+
 .bio {
   padding: 1em;
 }
