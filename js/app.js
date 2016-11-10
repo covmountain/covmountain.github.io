@@ -11,7 +11,7 @@ window.onload = function() {
     if (x == (images.length - 1)) {
       x = 0;
     }
-    banner.css('background-image', 'url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/' + images[x] + '.jpg")');
+    $('banner').css('background-image', 'url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/' + images[x] + '.jpg")');
 
   }, 5000);
 }
