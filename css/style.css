@@ -14,9 +14,14 @@
   border-top: solid 2px #efefef;
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Basic */
 .center-contents, .centre-calendar {
-  text-align: center;
+  text-align: center !important;
 }
 
 .bold {
