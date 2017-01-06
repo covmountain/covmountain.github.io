@@ -4,6 +4,10 @@
 
 /* Box Model */
 
+  .centre {
+    text-align: center;
+  }
+
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
