@@ -29,6 +29,10 @@
 		width: 1200px;
 	}
 
+  i {
+    font-style: italic;
+  }
+
 	/* Modifiers */
 	
 		.container.small {

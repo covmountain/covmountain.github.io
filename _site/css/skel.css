@@ -4,6 +4,10 @@
 
 /* Box Model */
 
+  .centre-calendar {
+    text-align: center;
+  }
+
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
@@ -24,6 +28,10 @@
 		/* width: (containers) */
 		width: 1200px;
 	}
+
+  i {
+    font-style: italic;
+  }
 
 	/* Modifiers */
 	

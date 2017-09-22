@@ -14,9 +14,14 @@
   border-top: solid 2px #efefef;
 }
 
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Basic */
-.center-contents {
-  text-align: center;
+.center-contents, .centre-calendar {
+  text-align: center !important;
 }
 
 .bold {
@@ -27,6 +32,10 @@
   text-align: center;
   box-sizing: border-box;
   padding: 1em;
+}
+
+img {
+  max-width: 100%;
 }
 
 .bio {

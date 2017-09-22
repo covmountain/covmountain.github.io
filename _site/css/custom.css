@@ -1,3 +1,11 @@
 .bold {
   font-weight: bold;
 }
+
+img {
+  max-width: 100%;
+}
+
+i {
+  font-style: italic !important;
+}
