@@ -1,3 +1,17 @@
+## How to make changes to the website
+
+1. This is all going to be pretty confusing unless your familiar with Jekyll/Liquid. If not, don't worry, just read on!
+2. Each of the pages exist in the top level of the repository. This means you don't need to go into subdirectories to edit content on the main page etc.
+3. It's tempting to make changes in the `_site` directory. DON'T. It won't cause any harm, but changes won't be saved. Want to know why? The `_site` directory holds the content of the site upon being build/compiled. Next time you load the site, the contents of the directory will be overwritten by the next build
+
+### I want to make a change to the index.html
+
+`index.html` is the default page when a user comes to the website, known as the home page/landing page. To edit the main content, simply click on the `index.html` file, then the edit tool, and you can start editing text. It is good to have a basic level of understanding of both Markdown and HTML before editing. If not, *only change the text, not the html tags*. You can also change images by uploading an image to the `images` directory, and then finding where the image has been used in the website, and changing the link to the new image path i.e `<img src='/images/newImage.jpg' />`
+
+
+
+
+
 Twenty by HTML5 UP
 html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
