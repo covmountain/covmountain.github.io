@@ -1,9 +1,8 @@
 ---
-layout: landing-page
 title: Team
-permalink: /team/
+permalink: "/team/"
+layout: landing-page
 ---
-
 
 ##Meet the team
 

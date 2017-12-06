@@ -1,14 +1,20 @@
-# Site settings
+---
 title: Coventry University Mountaineering Society
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: edward_prince@hotmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  This is the website for Coventry Universities Mountaineering Society.
-  Here you can find an abundance of information, pictures and more to 
-  view.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://edprince.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  edprince
+description: 'This is the website for Coventry Universities Mountaineering Society.
+  Here you can find an abundance of information, pictures and more to  view.
 
-# Build settings
+'
+baseurl: ''
+url: http://edprince.github.io
+twitter_username: jekyllrb
+github_username: edprince
 markdown: kramdown
